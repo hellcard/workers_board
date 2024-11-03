@@ -1,5 +1,5 @@
 ## WorkersBoard
-**simple django website with database, templates, admin-panel and migration**
+**simple django website with database, templates, admin-panel and migrations**
 
 <h4 align="center">build setup</h4>
 <p align="center">(ubuntu-latest)</p>
