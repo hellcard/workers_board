@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Our workers:</h2><br>
+{% for w in wsb %}
+<div>
+    <h4>Name: {{ w.name }}</h4>
+    <p>Age: {{ w.age }}</p>
+    <p>Experience: {{ w.exp }}</p> <br>
+</div>
+{% endfor %}
+</body>
+</html>
